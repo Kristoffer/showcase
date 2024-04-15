@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env bash -x
 set -euo pipefail
 K8S_CFG_INTERNAL=/home/nonroot/.kube/config
 K8S_CFG_EXTERNAL=/home/nonroot/.kube/config-external
